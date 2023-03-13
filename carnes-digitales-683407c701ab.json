@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "carnes-digitales",
+  "private_key_id": "683407c701ab740efae7c53d432bc4979f638012",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCzJ59yizYacFj/\nVKExweNvHZXaRn1caKNUbRQxP2SNLE3O4kkxHjOaWokVCz4iBz3bcWsINcmX48Ov\n84EWsltUTpvQh6FtlGdczYfPz/DIkZhLwWkiozRddzG8d4muJA3kfmYDy6gnPYxx\n6VbTE3U/zfSse80kS4vRzNv4x3+O0BiaD45TyiXLpQ2+tSNaDZH8VO0ZoFdr5QqS\nfUiR8Qe41dvkOTEts2QO/iSeDvsEQXdaet67FMGOBFDDNFmFiV1s/e06HbYGDrcr\nycecQ7kcxgkpi+1GSUpskTtzXS1ybUb2bYcWiEJ/cic6tLj4tn2b8BNjUJmwbYes\n6RRa79NXAgMBAAECggEAAtP0yd+Vrowoc3tYAguP9gCPDX+AWhWSwnHoWDCqeyoA\nXmwnAJ377YtRT6I6TFo16UFckagbswiW3a+n0X5mP6nv/rYtX6fwi7/4zVh4cgoO\nT9/RM4lE+da4U8PFShjqmTk/jf7IfDoV/fRTeQh9GNE88/4OSmzg26JytHYdttje\nQla3qus2VL+JDpoOJ4kMllIEJ9YhknUdpvqqbI8XMXoZndbDru16lDr86PC7wyJh\nRDWxBN70QMgRcJlRG2VCgnsXtZWPLJ1KSid5T5GRHqcTIRd5cdmtHktlzvyasxPN\nltifM5/xvCH1wB1NrUshinBoXxClb0wuRNPaEY930QKBgQDyfdM9x54KN7HvgmIu\n8Rr8V6ygW86kP7qZtjSLRQcapA9pQRJdlhXzfKBCCg2zq6owhNpppu4iPCE4PU1z\n1XeI+7nL5YzmUxieuC0qFA7eflY0MhBHS3mIb9ochXVmUftNNEvxul2CLxg7duuZ\n45zK7WpXIb7d06KPc8q4zxP2BwKBgQC9Io07uhs37BRTh6YJ6rD6BYNvDS8EEiK+\nC5gy6c0odJgmL71m6J5tjOfvN2skfI/A71+Qx3GyUPEFzF2BKlletubKLgTOqo5u\ntMDA6J+WY34dbpxN7SvSU7HGXcevcvksNCi/fckpd2bxERq2Qg/21x53d+IJFa4/\nXdY/eyVkMQKBgF0CN/DdTNfcbupP1zrsDY62Ticfr42+R+NHSLYWXtgwDx0u8U1m\nELtYlNtfocvFTzzW6DNX7MTCzXcVxExmlze6XZRAUp/RRYMzX1dhZCagzI2umiHO\naCoVxNHlupbpYPtG0M5BzjXtvFyqi0l2TSBkmcIb1mqdDx/4qMvj2WMnAoGBAKWk\nAPTyBKxxQUv2XOAKfnw5H+a+MRLrnym5lc3hHR/1HNs0rDfYOgfPg8DpVBhcTrm1\n6ogtY9G7OZrOZIWexS5CGNWwf91PWfZyru1DzaAz+ltkZ9eHgv1s9yC3OQ7bLoYc\nGCO80dRTEgDF7hL4wGp58+DFSVyTdEtiryRhgVnBAoGBAJUf29BogMsJzjSV/36S\niHk4N5zCzr1I2GXgpFLTFg5WXH85GFus1ouB8/6ZhNhx6yFmvLOX6xwPvp35bmuS\nKKbeQVARJQ2fTWgSX6UjCnCSlVa5L9ETiM0jsNat3IGtRuVzSurDPZF82eaN2VNl\n06mcs5+udSnl6i+7ZV2QsZqW\n-----END PRIVATE KEY-----\n",
+  "client_email": "carnes-digitales-sa@carnes-digitales.iam.gserviceaccount.com",
+  "client_id": "108835821458089915464",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/carnes-digitales-sa%40carnes-digitales.iam.gserviceaccount.com"
+}

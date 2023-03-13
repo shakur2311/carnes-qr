@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+        @import url('href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+        body{
+            box-sizing: border-box;
+            margin:0;
+            padding: 0;
+        }
+        .carneQR-bg{
+            background-image: url('https://raw.githubusercontent.com/shakur2311/carnesQR-images/main/images/carneQR-bg.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            height:1004px;
+            width:591px;
+            z-index:0;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+
+        }
+        .circle-image{
+            background-image: url('http:/localhost:<%= port %>/perfil-image/<%= imagenInput %>');
+            background-size: cover;
+            background-position: center;
+            border: 10px solid #fff;
+            height:200px;
+            width:200px;
+            border-radius: 50%;
+            margin-top:280px;
+        }
+        .empleado-text{
+            color:#000;
+            font-size:35px;
+            text-align: center;
+            max-width: 500px;
+            font-weight: bold;
+            font-family:'Roboto', sans-serif;
+            text-align: center;
+            margin-top:30px;
+        }
+        .oficina-text{
+            font-size:25px;
+            text-align: center;
+            max-width: 500px;
+            color: #5587aa;
+            font-family: 'Roboto Condensed', sans-serif;
+            text-align: center;
+            margin-top:10px;
+        }
+        .qr-image{
+            height:150px;
+            width:150px;
+            text-align: center;
+            margin-top:50px;
+        }
+        .blue-line{
+            height: 3px;
+            width:300px;
+            background-color: #57a5d4;
+            text-align: center;
+            margin-top:30px;
+        }
+        .pagina-text{
+            text-align: center;
+            margin-top:20px;
+            font-family: 'Mukta', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="carneQR-bg">
+        <div class="circle-image">
+
+        </div>
+        <div class="empleado-text">
+            <%=nombreInput%> <%= apellidoInput%>
+        </div>
+        <div class="oficina-text">
+            <%= oficinaInput %>
+        </div>
+        <div class="qr-image">
+            <img src="<%= imagenQR %>" alt="qr-image" width="100%">
+        </div>
+        <div class="blue-line">
+
+        </div>
+        <div class="pagina-text">
+            UNAC.EDU.PE
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* boostrap styles */
+    .row{
+        --bs-gutter-x:0;
+        --bs-gutter-y:0;
+        display:flex;
+        flex-wrap:wrap;
+        margin-top:calc(-1 * var(--bs-gutter-y));
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        -webkit-flex-wrap: wrap;
+    }
+    .flex{
+        display:flex;
+        flex-wrap:no-wrap;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        -webkit-flex-wrap: wrap;
+    }
+    .col-6{
+        flex:0 0 auto;
+        width:50%;
+    }
+    .col-4{
+        flex: 0 0 auto;
+        width:25%;
+    }
+    .justify-content-center{
+        justify-content: center;
+        -webkit-justify-content: center;
+    }
+    .justify-content-between{
+        -webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	    justify-content: space-between;
+    }
+    .flex-column{
+        flex-direction: column;
+    }
+    .align-items-center{
+        align-items: center;
+    }
+    .bold{
+        font-weight: bold;
+    }
+
+    /* end bootstrap styles */
+
+ 
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+    @import url('href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+    
+    .body{
+        box-sizing: border-box;
+        margin:0;
+        padding: 0;
+        height: 100vh;
+        width:500px;
+    }
+    .carnePDF-bg{
+        background-image: url('https://raw.githubusercontent.com/shakur2311/carnesQR-images/main/images/carnePDF-bg.PNG');
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: no-wrap;
+        -webkit-flex-wrap:no-wrap;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width:100%;
+        height: 100%;
+    }
+    .container{
+        width:75%;
+    }
+    .circle-img{
+        background-image: url('http:/localhost:<%= port %>/perfil-image/<%= imagenInput %>');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 5px solid #6db4de;
+        height:250px;
+        width:250px;
+        border-radius: 50%;
+        margin-top:300px;
+    }
+    .codigo-text{
+        color:#000;
+        font-size:20px;
+        font-family:'Roboto', sans-serif;
+        margin-top:100px;
+    }
+    
+    .empleado-text{
+        color:#000;
+        font-size:20px;
+        font-family:'Roboto', sans-serif;
+        margin-top:30px;
+    }
+    .correoi-text{
+        color:#000;
+        font-size:20px;
+        font-family:'Roboto', sans-serif;
+        margin-top:30px;
+    }
+    .dependencia-text{
+        color:#000;
+        font-size:20px;
+        font-family:'Roboto', sans-serif;
+        margin-top:30px;
+    }
+    .wrap{
+        overflow-wrap: break-word;
+        
+    }
+    .table p{
+        font-size: 50px;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+        font-family:'Roboto', sans-serif;
+    }
+
+</style>
+<body>
+    <div class="carnePDF-bg">
+        <div class="circle-img"></div>
+        <div class="container">
+            <div class="codigo-text row justify-content-between">
+                <div class="col-4 bold">Código: </div> 
+                <div class="col-6 wrap"><%= codigoInput %></div>
+            </div>
+            <div class="empleado-text row justify-content-between">
+                <div class="col-4 bold">Nombres y Apellidos: </div>
+                <div class="col-6 wrap"><%= nombreInput %> <%= apellidoInput %></div>
+            </div>
+            <div class="correoi-text row justify-content-between">
+                <div class="col-4 bold">Correo Institucional: </div>
+                <div class="col-6 wrap"><%= correoiInput %></div>
+            </div>
+            <div class="dependencia-text row justify-content-between">
+                <div class="col-4 bold">Dependencia: </div>
+                <div class="col-6 wrap"><%= oficinaInput %></div>
+            </div>
+            <div class="dependencia-text row justify-content-between">
+                <div class="col-4 bold">Cargo: </div>
+                <div class="col-6 wrap"><%= cargoInput %></div>
+            </div>
+        </div>
+    
+    </div>
+</body>
+</html>
